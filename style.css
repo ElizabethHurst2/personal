@@ -1,0 +1,274 @@
+/* CSS files add styling rules to your content */
+/* html { 
+  background:  url(https://cdn.glitch.com/5b587643-6f93-4ede-a432-db93cf666cdf%2FStacking.gif?v=1599194955138) no-repeat center center fixed; 
+  background-size: cover;
+}
+*/ 
+body {
+  font-family:  "Helvetica"; 
+  margin: 2em;
+  
+ /* background: url('https://cdn.glitch.com/5b587643-6f93-4ede-a432-db93cf666cdf%2FStacking.gif?v=1599194955138') no-repeat center center fixed;
+  background-size: cover; */ 
+}
+
+h1 {
+  text-align: center;
+  font-style: italic 
+  color: black;
+  padding: 10px 10px;
+}
+
+p {
+  padding-bottom: 15px;
+  text-align: center;
+  color: black;
+
+}
+
+ul {
+  padding-bottom: 15px
+    text-align: center
+}
+ 
+
+gallery {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-end;
+  align-content: space-between;
+  border: 10px ;
+}
+
+gallery > img {  
+margin: 5px;
+ max-height: 65vh;
+ max-width: 65vw;
+}
+
+gallery2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-end;
+  align-content: space-between;
+  border: 10px ;
+}
+
+gallery2 > img {  
+margin: 5px;
+ max-height: 150vh;
+ max-width: 150vw;
+}
+
+<style>
+
+a:link {
+  color: red;
+  background-color: transparent;
+  text-decoration: bold;
+}
+
+a:visited {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: bold;
+  
+}
+
+a:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: bold;
+}
+
+
+.a:hover {
+	cursor: url('https://cdn.glitch.com/5b587643-6f93-4ede-a432-db93cf666cdf%2FCARNIVAL%20cursor.png?v=1602733609595'), pointer;
+}
+.b:hover {
+	cursor: url('https://cdn.glitch.com/5b587643-6f93-4ede-a432-db93cf666cdf%2FCLAYCLUB%20cursor.png?v=1602733609596'), pointer;
+}
+.c:hover {
+	cursor: url('https://cdn.glitch.com/5b587643-6f93-4ede-a432-db93cf666cdf%2FSMALL%20change%20cursor.png?v=1602733610418'), pointer;
+}
+
+.d:hover {
+	cursor: url('https://cdn.glitch.com/5b587643-6f93-4ede-a432-db93cf666cdf%2FCRUMBY%203.png?v=1605637492789'), pointer;
+}
+
+.e:hover {
+	cursor: url('https://cdn.glitch.com/5b587643-6f93-4ede-a432-db93cf666cdf%2FPRESS%20cursor.png?v=1602733610029'), pointer;
+}
+
+.f:hover {
+	cursor: url('https://cdn.glitch.com/5b587643-6f93-4ede-a432-db93cf666cdf%2FDISCO%20cursor.png?v=1602733609977'), pointer;
+}
+
+.g:hover {
+	cursor: url('https://cdn.glitch.com/5b587643-6f93-4ede-a432-db93cf666cdf%2Fsounds.png?v=1604787403777'), pointer;
+}
+
+.h:hover {
+	cursor: url('https://cdn.glitch.com/5b587643-6f93-4ede-a432-db93cf666cdf%2FSNL%20small%20cursor.png?v=1602733610153'), pointer;
+}
+
+.i:hover {
+	cursor: url('https://cdn.glitch.com/5b587643-6f93-4ede-a432-db93cf666cdf%2FECX%20cursor.png?v=1602733610377'), pointer;
+}
+
+.j:hover {
+	cursor: url('https://cdn.glitch.com/5b587643-6f93-4ede-a432-db93cf666cdf%2FMONUMENTS%20cursor.png?v=1602735189356'), pointer;
+}
+
+.k:hover {
+	cursor: url('https://cdn.glitch.com/5b587643-6f93-4ede-a432-db93cf666cdf%2FSundial%20cursor.png?v=1602734391260'), pointer;
+}
+
+.l:hover {
+	cursor: url('https://cdn.glitch.com/5b587643-6f93-4ede-a432-db93cf666cdf%2FTRASH.png?v=1605637707729'), pointer;
+}
+
+.m:hover {
+	cursor: url('https://cdn.glitch.com/5b587643-6f93-4ede-a432-db93cf666cdf%2FInteractive%20Soundsystems.png?v=1602733610095'), pointer;
+}
+
+.n:hover {
+	cursor: url('https://cdn.glitch.com/5b587643-6f93-4ede-a432-db93cf666cdf%2FArcade%20Station%202.png?v=1605637416109'), pointer;
+}
+
+.o:hover {
+	cursor: url('https://cdn.glitch.com/5b587643-6f93-4ede-a432-db93cf666cdf%2FEMG%20bots%20cursor.png?v=1602733610344'), pointer;
+}
+
+.p:hover {
+	cursor: url('https://cdn.glitch.com/5b587643-6f93-4ede-a432-db93cf666cdf%2FWATER1.png?v=1605998839793'), pointer;
+}
+
+.q:hover {
+	cursor: url('https://cdn.glitch.com/5b587643-6f93-4ede-a432-db93cf666cdf%2FQUILT%20cursor.png?v=1602733610279'), pointer;
+}
+
+.r:hover {
+	cursor: url('https://cdn.glitch.com/5b587643-6f93-4ede-a432-db93cf666cdf%2FKnitting%20cursor.png?v=1602734454168'), pointer;
+}
+
+.s:hover {
+	cursor: url('https://cdn.glitch.com/5b587643-6f93-4ede-a432-db93cf666cdf%2FCOSMOS%20cursor.png?v=1602733609760'), pointer;
+}
+
+.t:hover {
+	cursor: url('https://cdn.glitch.com/5b587643-6f93-4ede-a432-db93cf666cdf%2FCHARACTER%20cursor.png?v=1602733609596'), pointer;
+}
+
+.u:hover {
+	cursor: url('https://cdn.glitch.com/5b587643-6f93-4ede-a432-db93cf666cdf%2FMUSHROOM%20cursor.png?v=1602733610243'), pointer;
+}
+
+.v:hover {
+	cursor: url('https://cdn.glitch.com/5b587643-6f93-4ede-a432-db93cf666cdf%2FPLASTICS%20cursor.png?v=1602735063758'), pointer;
+}
+
+.w:hover {
+	cursor: url('https://cdn.glitch.com/5b587643-6f93-4ede-a432-db93cf666cdf%2FSUIT%20cursor.png?v=1602733610123'), pointer;
+}
+
+.x:hover {
+	cursor: url('https://cdn.glitch.com/5b587643-6f93-4ede-a432-db93cf666cdf%2FFLAG%20DANCER2.png?v=1605637416109'), pointer;
+}
+
+.y:hover {
+	cursor: url('https://cdn.glitch.com/5b587643-6f93-4ede-a432-db93cf666cdf%2FBEAMTEAM.png?v=1605715381358'), pointer;
+}
+
+.z:hover {
+	cursor: url('https://cdn.glitch.com/5b587643-6f93-4ede-a432-db93cf666cdf%2Fdrum%20copy.png?v=1605832857270'), pointer;
+}
+
+.a1:hover {
+	cursor: url('https://cdn.glitch.me/5b587643-6f93-4ede-a432-db93cf666cdf%2FBELLS%20LARGE.png?v=1638654203741'), pointer;
+}
+
+.a2:hover {
+	cursor: url('https://cdn.glitch.global/5b587643-6f93-4ede-a432-db93cf666cdf/SUPPORT.png?v=1643082226766'), pointer;
+}
+
+.a3:hover {
+	cursor: url('https://cdn.glitch.global/5b587643-6f93-4ede-a432-db93cf666cdf/MOTHcursor.png?v=1657401885076'), pointer;
+}
+
+
+#nav li p:hover{
+-moz-transform: rotate(180deg) translateX(-5px);
+-webkit-transform: rotate(180deg) translateX(-5px);
+-o-transform: rotate(180deg) translateX(-5px);
+-ms-transform: rotate(180deg) translateX(-5px);
+transform: rotate(180deg) translateX(-5px);
+
+}
+#nav li p{
+-moz-transform: rotate(5deg) translateX(10px);
+-webkit-transform: rotate(5deg) translateX(10px);
+-o-transform: rotate(5deg) translateX(10px);
+-ms-transform: rotate(5deg) translateX(10px);
+transform: rotate(5deg) translateX(10px);
+-webkit-transition: all .3s ease-out;
+-moz-transition: all .3s ease-out;
+-ms-transition: all .3s ease-out;
+-o-transition: all .3s ease-out;
+transition: all .3s ease-out;
+height: inherit;
+}
+
+#nav{
+    position: fixed; left: 65%; top: 5px; z-index: 1000; font-size: 18px; font-weight: bold;position: fixed;
+    right: 5;
+    min-height: 100%;
+    max-height: 100%;
+    width: 180px;
+    border: 0px #1D50AD dashed;
+    }
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    height: 100%;
+}
+#nav li{
+    height: 45px;
+    margin-top: 65%;
+    }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+</style> 
+
+
+/* this works but ugly with images of different heights */
+
+/*
+
+.img-holder {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: auto auto;
+  justify-content: center;
+
+}
+
+
+.img-holder img { 
+  max-width:90%;
+  max-height: 400px;
+}
+*/
